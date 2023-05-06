@@ -1,41 +1,21 @@
-import './App.css';
+import  Home from  './pages/Home.js';
+import Services from './pages/Services.js';
+import Booking from './pages/Booking';
+import About from './pages/About';
+import {BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
-  return (
-    <html>
-      <head>
-        <img src="logo.png">
-      </head>
-      <body>
-        <header>
+  return ( 
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/booking" element={<Booking />} />
+        <Route exact path="/about" element={<About />} />
+      </Routes>
+  </BrowserRouter>
 
-        </header>
-        <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="orderonline.html">Order Online</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-        </nav>
-        <main>
-
-        </main>
-        <footer>
-        <div>
-            <img src="logo_footer.png">
-        </div>
-        <div>
-            <p>Copyright Little Lemon</p>
-        </div>
-        </footer>
-      </body>
-    </html>
-  );
-}
+  ); 
+} 
 
 export default App;
-
-
