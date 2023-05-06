@@ -1,0 +1,31 @@
+.form-container{
+    border: 1px solid grey;
+    margin: 10px 180px 10px 180px;
+}
+
+.first-name-label{
+    margin-left:10px;
+    opacity:0.5;
+}
+.invalid-input{
+    color:red;
+    margin-left: 10px;
+}
+
+.form-check{
+    color:black;
+    margin-top: -80px;
+}
+
+.btn-confirmation{
+    color:black;
+    background-color: yellow;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: 340px;
+    margin-bottom: 20px;
+}
+
+.status-reserve{
+    color:green;
+}

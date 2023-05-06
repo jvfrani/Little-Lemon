@@ -1,0 +1,10 @@
+.btn-come-back{
+    color:rgb(206, 204, 204);
+    background-color: rgba(222, 228, 228, 0.22);
+    cursor: pointer;
+    border: 1px solid rgba(205, 204, 204, 0.657);
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
